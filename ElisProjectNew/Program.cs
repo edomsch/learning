@@ -8,43 +8,41 @@ namespace ElisProjectNew
 
         public static void Main()
         {
-            Console.WriteLine("Give me two integers and I will add, subtract, multiply and divide them!");
-
+            Console.WriteLine("Give me two real numbers and I will add, subtract, multiply and divide them!");
+            Console.WriteLine();
             Console.WriteLine("Please enter the first number and press enter:");
-            var num1 = Int32.Parse(Console.ReadLine());
+            var num1 = decimal.Parse(Console.ReadLine());
+            Console.WriteLine();
             Console.WriteLine("Please enter the second number and press enter:");
-            var num2 = Int32.Parse(Console.ReadLine());
-
-            Console.WriteLine("The sum of those two numbers is"); Console.WriteLine(Math.Add(num1, num2));
-            Console.WriteLine("The difference between those two numbers is"); Console.WriteLine(Math.Sub(num1, num2));
-            Console.WriteLine("The product of those two numbers is"); Console.WriteLine(Math.Mul(num1, num2));
-            Console.WriteLine("The quotient of those two numbers, truncated at the ones place, is"); Console.WriteLine(Math.Div(num1, num2));
+            var num2 = decimal.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("The sum of those two numbers is "); Console.Write(Math.Add(num1, num2));
+            Console.WriteLine(); Console.WriteLine();
+            Console.Write("The difference between those two numbers is "); Console.Write(Math.Sub(num1, num2));
+            Console.WriteLine(); Console.WriteLine();
+            Console.Write("The product of those two numbers is "); Console.Write(Math.Mul(num1, num2));
+            Console.WriteLine(); Console.WriteLine();
+            Console.Write("The quotient of those two numbers, rounded to the nearest ten-octillionth, is "); Console.Write(Math.Div(num1, num2));
             var input = Console.ReadLine();
         }
 
-
-
-        public Program()
-        {
-           
-        }
     }
 
     public static class Math
     {
-        public static int Add(int num1, int num2)
+        public static decimal Add(decimal num1, decimal num2)
         {
             return num1 + num2;
         }
-        public static int Sub(int num1, int num2)
+        public static decimal Sub(decimal num1, decimal num2)
         {
             return num1 - num2;
         }
-        public static int Mul(int num1, int num2)
+        public static decimal Mul(decimal num1, decimal num2)
         {
             return num1 * num2;
         }
-        public static int Div(int num1, int num2)
+        public static decimal Div(decimal num1, decimal num2)
         {
             return num1 / num2;
         }
