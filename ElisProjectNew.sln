@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElisProjectNew", "ElisProjectNew\ElisProjectNew.csproj", "{A5FF7754-6FEB-431D-BA1E-87FEEA29D6E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FF7754-6FEB-431D-BA1E-87FEEA29D6E9}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A5FF7754-6FEB-431D-BA1E-87FEEA29D6E9}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A5FF7754-6FEB-431D-BA1E-87FEEA29D6E9}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A5FF7754-6FEB-431D-BA1E-87FEEA29D6E9}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
